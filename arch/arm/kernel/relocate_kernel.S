@@ -7,9 +7,9 @@
 #ifdef CONFIG_KEXEC_HARDBOOT
 #include <asm/memory.h>
 #if defined(CONFIG_ARCH_TEGRA_2x_SOC) || defined(CONFIG_ARCH_TEGRA_3x_SOC)
-  #include <mach/iomap.h>
+#include <mach/iomap.h>
 #elif defined(CONFIG_ARCH_APQ8064) || defined(CONFIG_ARCH_MSM8960)
-  #include <mach/msm_iomap.h>
+#include <mach/msm_iomap.h>
 #endif
 #endif
 
